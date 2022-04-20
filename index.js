@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 app.use("/api/product", product);
 
 
-app.listen(POST, () => console.log(`Server is running ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running ${PORT}`));
 
 
 
