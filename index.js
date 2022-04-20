@@ -1,9 +1,18 @@
 const express = require("express");
 const app = express();
+const product = require('./api/product');
+
+const PORT = process.env.PORT || 3000;
+
+
+app.listen(POST, () => console.log(`Server is running ${PORT}`));
+
+
+
 // const db = require('./config/db');
 
 
-app.get('/', (req, res) => res.send('Aplikasi Berhasil Berjalan santai'));
+// app.get('/', (req, res) => res.send('Aplikasi Berhasil Berjalan santai'));
 
 // app.use(express.urlencoded({extended: true}));
 
@@ -85,4 +94,4 @@ app.get('/', (req, res) => res.send('Aplikasi Berhasil Berjalan santai'));
 //     }
 // })
 
-app.listen(4500, () => console.log("port has running in 4500"));
+// app.listen(4500, () => console.log("port has running in 4500"));
