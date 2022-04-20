@@ -13,4 +13,5 @@ router.get("/", async(req, res)=>{
         console.error(error);
         return res.status(500).send("server error");
     }
-})
+});
+module.exports = router;
