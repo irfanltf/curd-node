@@ -7,7 +7,7 @@ app.get('/', (req, res) => res.send('Aplikasi Berhasil Berjalan'));
 
 app.use(express.urlencoded({extended: true}));
 
-db.authenticate().then(()=>console.log('successfully conected databse'));
+db.authenticate().then(()=>console.log('Berhasil Connect ke Database'));
 
 const User = require('./models/user');
 
