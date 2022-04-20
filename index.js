@@ -3,7 +3,7 @@ const app = express();
 // const db = require('./config/db');
 
 
-app.get('/', (req, res) => res.send('Aplikasi Berhasil Berjalan...'));
+app.get('/', (req, res) => res.send('Aplikasi Berhasil Berjalan santai'));
 
 // app.use(express.urlencoded({extended: true}));
 
